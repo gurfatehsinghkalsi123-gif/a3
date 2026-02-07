@@ -74,7 +74,7 @@ def chat():
         elif "pack" in user_input :
             packing_tips()
         elif "joke" in user_input:
-            show_help()
+            tell_joke()
         elif "exit" in user_input:
             show_help()
             break
